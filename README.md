@@ -1,26 +1,8 @@
-# Exercise 11 - Get the Titles!
+# Exercise 08 - Calculator
 
-You are given an array of objects that represent books with an author and a title that looks like this:
+The goal for this exercise is to create a calculator that does the following:
 
-```javascript
-const books = [
-  {
-    title: 'Book',
-    author: 'Name'
-  },
-  {
-    title: 'Book2',
-    author: 'Name2'
-  }
-]
-```
+add, subtract, get the sum, multiply, get the power, and find the factorial
 
-Your job is to write a function that takes the array and returns an array of titles:
-
-```javascript
-getTheTitles(books) // ['Book','Book2']
-```
-
-## Hints
-
-- You should use a built-in javascript method to do most of the work for you!
+In order to do this please fill out each function with your solution. Make sure to return the value so you can test it in Jest! To see the expected value
+take a look at the spec file that houses the Jest test cases.
